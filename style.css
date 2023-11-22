@@ -23,6 +23,23 @@
 .list{
     padding-left: 100px;
 }
+.sec{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+}
+.dp{
+    width: 250px;
+    height: 250px;
+    border: solid rgb(80, 16, 230) 5px;
+    border-radius: 100%;
+}
+.icon-image{
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
 
 /* Mobile Phones */
 @media only screen and (max-width: 600px) {
@@ -32,6 +49,11 @@
     }
     .list{
         padding-left: 0px;
+    }
+    .sec{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 80px;
     }
     
   }
