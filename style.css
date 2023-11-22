@@ -1,0 +1,43 @@
+/* google font linkk-------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+
+.bd{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.logo1{
+    width: 68px;
+    height: 43px;
+}
+.pd{
+    padding-right: 300px;
+
+}
+.list{
+    padding-left: 100px;
+}
+
+/* Mobile Phones */
+@media only screen and (max-width: 600px) {
+    /* Your mobile styles go here */
+    .pd{
+        padding-right: 220px;
+    }
+    .list{
+        padding-left: 0px;
+    }
+    
+  }
+
+
+  /* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Your tablet styles go here */
+  }
